@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/1005/1005141.png" type="image/x-icon">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="header" id ="main">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="header_logo">KP</a>
+                <div class="navigation">
+                    <a href="#main" class="nav_link">ГЛАВНАЯ</a>
+                    <a href="#about" class="nav_link">ОБ АВТОРЕ</a>
+                    <a href="#projects" class="nav_link">РАБОТЫ</a>
+                    <a href="#contact" class="nav_link">КОНТАКТЫ</a>
+                </div>
+            </div>
+            <div class="header_main">
+                <div class="container">
+                    <div class="header_box">
+                        <img src="img/laptop.png" alt="Laptop" class="laptop">
+                        <div class="header_info">
+                            <h1 class="header_title">Дизайн и верстка</h1>
+                            <a href="https://t.me/petrkoz" class="header_link">НАПИСАТЬ МНЕ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+    </div>
+    <div class="about" id ="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="about_info">
+                        <h1 class="about_title ">Обо мне</h1>
+                        <div class="about_text "><span>Пётр Козырев</span> 
+                            - Верстальщик, Дизайнер.
+                            Со мною комфортно работать, потому что я сэкономлю ваши нервы, деньги и время.
+                            Я гарантирую выполнение работы.
+                            Все правки бесплатны.</div>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>      
+        </div>    
+    </div>
+    
+    <div class="works" id ="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col">
+                    <div class="project">
+                        <img src="img/project.png" alt="Project" class="project_img">
+                        <p class="project_digit"><span>15 + </span><br>проектов <br> на фрилансе и для знакомых</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="container">
+            <div class="skills_box">
+                <div class="skills_group">
+                    <h1 class="skills_title">Мои навыки</h1>
+                    <div class="skill">
+                        <h2 class="skill_title">HTML/CSS</h2>
+                        <img src="img/line.png" alt="load" class="skill_line">
+                    </div>
+                    <div class="skill">
+                        <h2 class="skill_title">Adobe Illustrator</h2>
+                        <img src="img/line.png" alt="load" class="skill_line">
+                    </div>
+                    <div class="skill">
+                        <h2 class="skill_title">Adobe Photoshop</h2>
+                        <img src="img/line.png" alt="load" class="skill_line">
+                    </div>
+                </div>
+                <img src="img/programer.png" alt="programmer" class="skills_img">
+            </div>   
+        </div>
+    </div>
+    <div class="portfolio" id ="projects">
+        <div class="container">
+            <div class="portfolio_box">
+                <h1 class="portfolio_title">Мои работы</h1>
+                <div class="slider">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="slider_items">
+                    <div><img src="img/works/1.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/2.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/3.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/4.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/5.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/6.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/7.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/8.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/9.jpg" alt="" class="protfolio_item"></div>
+                    <div><img src="img/works/10.jpg" alt="" class="protfolio_item"></div>
+                </div>
+                         
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer" id ="contact">
+        <div class="container">
+            <div class="footer_box">
+                <h1 class="footer_title">Козырев Пётр</h1>
+                <div class="social_networks">
+                    <p class="social_text"><span>Мой Телеграмм</span>   <a href="https://t.me/petrkoz"><img src="img/telegram.png" alt="" class="icon"></a></p>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/skroll.js"></script>
+    <script>
+        var skroll = new Skroll()
+                .add(".about_title",{
+                        animation:"fadeInUp",
+                        delay:120,
+                        duration:600,
+                        wait:250
+                })
+                .add(".about_text",{
+                        animation:"fadeInUp",
+                        delay:120,
+                        duration:600,
+                        wait:250
+                })
+                .add(".works",{
+                        animation:"fadeInUp",
+                        delay:150,
+                        duration:800,
+                        wait:250
+                })
+                .add(".skills",{
+                   animation:"slideInLeft",
+                   delay:80,
+                   duration:800
+                })
+                .add(".portfolio",{
+                        animation:"fadeInUp",
+                        delay:200,
+                        duration:900,
+                        wait:300
+                })
+                .init();
+     </script>
+</body>
+</html>
