@@ -363,3 +363,51 @@ a{
         object-fit: cover;
     }
 }
+@media (max-width:500px){
+    .nav_link {
+        font-size: 12px;
+        line-height: 26px;
+        margin-left: 0px;
+    }
+    .nav_link:not(:first-child) {
+        margin-left: 30px;
+    }
+    .header_logo {
+        margin-bottom: 15px;
+    }
+    .nav {
+        padding-bottom: 80px;
+    }
+    .header_title {
+        font-size: 42px;
+        line-height: 74px;
+    }
+    .header_link {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 22px 36px;
+    }
+    .skills_box {
+        flex-direction: column;
+    }
+    .skills_group{
+        margin-bottom: 30px;
+    }
+    .protfolio_item {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        margin-right: 7px;
+    }
+    .social_text span {
+        margin-right: 10px;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+    .footer_title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
