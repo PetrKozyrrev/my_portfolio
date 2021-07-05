@@ -394,8 +394,8 @@ a{
         margin-bottom: 30px;
     }
     .protfolio_item {
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
         object-fit: cover;
         margin-right: 7px;
     }
@@ -403,8 +403,8 @@ a{
         margin-right: 10px;
     }
     .icon {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
     .footer_title {
         font-size: 18px;
