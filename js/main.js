@@ -1,5 +1,6 @@
 /* Устанавливаем стартовый индекс слайда по умолчанию: */
 let slideIndex = 4;
+
 /* Вызываем функцию, которая реализована ниже: */
 showSlides(slideIndex);
 
@@ -35,9 +36,29 @@ function showSlides(n) {
     for (let slide of slides) {
         slide.style.display = "none";
     }
-    /* Делаем элемент блочным: */
-    slides[slideIndex - 1].style.display = "block";
-    slides[slideIndex - 2].style.display = "block";
-    slides[slideIndex - 3].style.display = "block";
-    slides[slideIndex - 4].style.display = "block"; 
+
+    const pageWidth = document.documentElement.scrollWidth;
+    if (pageWidth>993){
+        /* Делаем элемент блочным: */
+        slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex - 2].style.display = "block";
+        slides[slideIndex - 3].style.display = "block";
+        slides[slideIndex - 4].style.display = "block"; 
+    }
+    if (pageWidth<=993 && pageWidth>768){
+        /* Делаем элемент блочным: */
+        slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex - 2].style.display = "block";
+        slides[slideIndex - 3].style.display = "block";
+    }
+    if (pageWidth<=768 && pageWidth>500){
+        /* Делаем элемент блочным: */
+        slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex - 2].style.display = "block";
+    }
+    if (pageWidth<500){
+        /* Делаем элемент блочным: */
+        slides[slideIndex - 1].style.display = "block";
+    }
+    
 }
